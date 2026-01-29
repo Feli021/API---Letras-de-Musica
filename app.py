@@ -14,9 +14,6 @@ def buscar_letra(banda, musica):
     else: 
         return None
     
-
-
-
 st.image("https://i.imgur.com/SmktDIH.png")
 banda = st.text_input("Digite o nome da banda: ", key="banda")
 musica = st.text_input("Digite o nome da música: ", key="musica")
